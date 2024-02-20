@@ -1,8 +1,8 @@
 import React from 'react'
 import { useEffect, useRef } from 'react'
-import gsap from 'gsap-trial'
-import DrawSVGPlugin from 'gsap-trial/DrawSVGPlugin'
-import LogoS from '../../../assets/images/nk.png'
+import gsap from 'gsap'
+import DrawSVGPlugin from 'gsap/all'
+import LogoS from '../../../assets/images/Learning-bro.svg'
 import './Logo.scss'
 
 const Logo = () => {
