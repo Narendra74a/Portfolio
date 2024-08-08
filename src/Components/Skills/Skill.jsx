@@ -50,10 +50,10 @@ const Skill = () => {
             <span class="tech-tag">CSS3</span>,
             <span class="tech-tag">JavaScript</span>,
             <span class="tech-tag">jQuery</span>,
-            <span class="tech-tag">Angular2</span>,
+        
             <span class="tech-tag">React</span>,
             <span class="tech-tag">TypeScript</span>,
-            <span class="tech-tag">Jasmine</span>,
+           
             <span class="tech-tag">Bootstrap</span>,
             <span class="tech-tag">Sass</span>,<span class="tech-tag">Git</span>
             , etc.

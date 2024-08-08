@@ -35,8 +35,8 @@ const Education = () => {
             />
           </h1>
           <p>
-            Bachelor of Computer Application, Integral University, 2019-2022
-            During my undergraduate studies, I developed a strong foundation in
+            Master of Computer Application, Uttaranchal University, 2022-2025
+            During my Postgraduate studies, I developed a strong foundation in
             computer science and gained comprehensive knowledge of programming
             languages. which enhanced my problem-solving and analytical skills.
             Additionally, I collaborated with fellow students to complete
@@ -65,10 +65,37 @@ const Education = () => {
                 sx={{ m: 'auto 0' }}
                 align="right"
                 variant="body2"
-                color="text.White"
+                color="#ccc"
                 style={{ fontSize: '15px' }}
               >
-                2022-10-19
+                2023-2025
+              </TimelineOppositeContent>
+              <TimelineSeparator>
+                <TimelineConnector />
+                <TimelineDot style={{ background: 'yellow' }}>
+                  {/* <Event /> */}
+                  <Collage style={{ color: 'black' }} />
+                </TimelineDot>
+                <TimelineConnector />
+              </TimelineSeparator>
+              <TimelineContent sx={{ py: '12px', px: 2, m: 'auto 0' }}>
+                <Typography variant="h5" style={{ fontSize: '20px' }}>
+                  MCA
+                </Typography>
+                <Typography variant="p" style={{ fontSize: '15px' }}>
+                  MASTER of Computer Application
+                </Typography>
+              </TimelineContent>
+            </TimelineItem>
+            <TimelineItem>
+              <TimelineOppositeContent
+                sx={{ m: 'auto 0' }}
+                align="right"
+                variant="body2"
+                color="#ccc"
+                style={{ fontSize: '15px' }}
+              >
+                2019-2022
               </TimelineOppositeContent>
               <TimelineSeparator>
                 <TimelineConnector />
@@ -92,10 +119,10 @@ const Education = () => {
                 sx={{ m: 'auto 0' }}
                 align="right"
                 variant="body2"
-                color="text.White"
+                color="#ccc"
                 style={{ fontSize: '15px' }}
               >
-                2017-04-29
+                2017
               </TimelineOppositeContent>
               <TimelineSeparator>
                 <TimelineConnector />
@@ -118,10 +145,10 @@ const Education = () => {
                 sx={{ m: 'auto 0' }}
                 align="right"
                 variant="body2"
-                color="text.White"
+                color="#ccc"
                 style={{ fontSize: '15px' }}
               >
-                2015-05-29
+                2015
               </TimelineOppositeContent>
               <TimelineSeparator>
                 <TimelineConnector />
