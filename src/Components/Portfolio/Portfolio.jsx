@@ -63,7 +63,7 @@ const Portfolio = () => {
                 <Link to={item.link} target="blank">
                   <FontAwesomeIcon icon={faExternalLink} className="btn" />
                 </Link>
-                <Link id="CodeBtn" to={item.link} target="blank">
+                <Link id="CodeBtn" to={item.code} target="blank">
                   <span>Source Code</span>
                 </Link>
               </div>
