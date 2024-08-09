@@ -6,7 +6,7 @@ import LogoTitle from "../../assets/images/N.png";
 import Logo from "./Logo/Logo";
 import Loader from "react-loaders";
 import SaveAs from "file-saver";
-import CV from "../../assets/narendra.pdf";
+import CV from "../../assets/Narendra.pdf";
 
 const Home = () => {
 
@@ -38,6 +38,7 @@ const Home = () => {
 
   const Resume = () => {
     SaveAs(CV, "Narendra.pdf");
+    alert("Resume Downloded")
   };
 
   return (
@@ -73,7 +74,7 @@ const Home = () => {
           <Link to="/contact" className="flat-button">
             CONTACT ME
           </Link>
-          <Link to="#"   className="flat-button">
+          <Link onClick={Resume}   className="flat-button">
             Download CV
           </Link>
         </div>
