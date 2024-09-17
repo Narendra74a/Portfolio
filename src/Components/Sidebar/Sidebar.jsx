@@ -74,7 +74,7 @@ const Sidebar = () => {
       <ul className={showNav ? "mobile-show" : ""}>
         <li>
           <a
-            href="https://www.linkedin.com/in/narendra-kumar/"
+            href="https://www.linkedin.com/in/narendra74/"
             target="_blank"
             rel="noreferrer"
           >
